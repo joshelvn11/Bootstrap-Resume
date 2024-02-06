@@ -17,9 +17,12 @@ h4 {
   color: whitesmoke;
 }
 
-p {
+p,
+label,
+.form-control,
+.btn {
   font-family: Helvetica, monospace, sans-serif;
-  color: whitesmoke;
+  color: whitesmoke !important;
   font-weight: 100;
 }
 
@@ -102,9 +105,17 @@ p {
   padding-bottom: 5rem !important;
 }
 
+.pt-6 {
+  padding-top: 5rem !important;
+}
+
 .py-7 {
   padding-top: 10rem !important;
   padding-bottom: 10rem !important;
+}
+
+.pt-7 {
+  padding-top: 10rem !important;
 }
 
 .bi {
@@ -114,4 +125,32 @@ p {
 
 .portfolio-item-desc {
   min-height: 50px;
+}
+
+.skill-icon {
+  height: 60px;
+}
+
+.form-control {
+  color: rgb(192, 192, 192) !important;
+  background-color: rgba(245, 245, 245, 0.1);
+  border: 0.5px solid rgba(245, 245, 245, 0.5);
+}
+
+.form-control:focus {
+  color: rgb(192, 192, 192) !important;
+  background-color: rgba(245, 245, 245, 0.1);
+  border: 0.5px solid rgba(245, 245, 245, 0.5);
+  box-shadow: 0 0px 12px 0 rgba(245, 245, 245, 0.3);
+}
+
+.btn-primary {
+  background-color: rgba(245, 245, 245, 0.1);
+  border: 0.5px solid rgba(245, 245, 245, 0.5);
+}
+
+.btn-primary:hover {
+  background-color: rgba(245, 245, 245, 0.1);
+  border: 0.5px solid rgba(245, 245, 245, 0.5);
+  box-shadow: 0 0px 12px 0 rgba(245, 245, 245, 0.3);
 }
