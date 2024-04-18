@@ -45,24 +45,24 @@
         <div class="navbar-nav mx-auto">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
+              <a class="nav-link" href="#portfolio">Work</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Skills</a>
+              <a class="nav-link" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
         </ul>
         </div>
         <!-- Social Icons -->
         <div class="d-flex pt-3 pt-sm-0">
-          <a class="nav-link" href="#"><i class="bi bi-linkedin px-2"></i></a>
-          <a class="nav-link" href="#"><i class="bi bi-github px-2"></i></a>
-          <a class="nav-link" href="#"><i class="bi bi-envelope px-2"></i></a>
+          <a class="nav-link" href="https://www.linkedin.com/in/josh-beaver-6a2129282/" target="_blank"><i class="bi bi-linkedin px-2"></i></a>
+          <a class="nav-link" href="https://github.com/joshelvn11" target="_blank"><i class="bi bi-github px-2"></i></a>
+          <a class="nav-link" href="mailto:josh.elvn11@gmail.com"><i class="bi bi-envelope px-2"></i></a>
         </div>
       </div>
     </nav>
@@ -76,9 +76,9 @@
     </div>
 
     <!-- Portfolio Section -->
-    <div class="container text-center py-5">
-      <h2 class="display-4">Portfolio</h2>
-      <p class="h2-subtext">Some of my recent work</p>
+    <div class="container text-center py-5" id="portfolio">
+      <h2 class="display-4">Work</h2>
+      <p class="h2-subtext">Some of my recent projects</p>
     </div>
 
     <div class="container">
@@ -96,25 +96,29 @@
               </div>
             </div>
             <div class="portfolio-img mt-3">
-              <a href="https://www.example.com">
-              <img src="assets/images/mary-sibande.png" class="img-fluid" />
-            </a>
+              <a href="https://www.marysibande.com">
+                <img src="assets/images/mary-sibande.png" class="img-fluid" />
+              </a>
             </div>
           </div>
         </div>
-        <!-- Kyles Game -->
+        <!-- Vocab Venture -->
         <div class="col-xs-12 col-sm-6 col-lg-4 h-100">
           <div class="p-3 pb-0 glass-container">
-            <h3>Kyle's Game</h3>
-            <p class="portfolio-item-desc">Online version of the popular party game</p>
+            <h3>VocabVenture</h3>
+            <p class="portfolio-item-desc">Language Learning Web App</p>
             <div class="container">
               <div class="row">
                 <div class="col-auto tag"><p>JavaScript</p></div>
                 <div class="col-auto tag"><p>HTML & CSS</p></div>
+                <div class="col-auto tag"><p>Django</p></div>
+                <div class="col-auto tag"><p>Python</p></div>
               </div>
             </div>
             <div class="portfolio-img mt-3">
-              <img src="assets/images/kyles-game.png" class="img-fluid" />
+              <a href="https://vocabventure.onrender.com">
+                <img src="assets/images/vocabventure.png" class="img-fluid" />
+              </a> 
             </div>
           </div>
         </div>
@@ -130,7 +134,9 @@
               </div>
             </div>
             <div class="portfolio-img mt-3">
-              <img src="assets/images/cbps.png" class="img-fluid" />
+              <a href="https://beam-portal.org" target="_blank">
+                <img src="assets/images/cbps.png" class="img-fluid" />
+              </a>
             </div>
           </div>
         </div>
@@ -146,7 +152,9 @@
               </div>
             </div>
             <div class="portfolio-img mt-3">
-              <img src="assets/images/moonflower.png" class="img-fluid" />
+              <a href="https://joshelvn11.github.io/Moonflower/" target="_blank">
+                <img src="assets/images/moonflower.png" class="img-fluid" />
+              </a>
             </div>
           </div>
         </div>
@@ -162,15 +170,17 @@
               </div>
             </div>
             <div class="portfolio-img mt-3">
-              <img src="assets/images/kyles-game.png" class="img-fluid" />
+              <a href="https://joshelvn11.github.io/Kyles-Game/" target="_blank">
+                <img src="assets/images/kyles-game.png" class="img-fluid" />
+              </a>
             </div>
           </div>
         </div>
         <!-- CBPS -->
         <div class="col-xs-12 col-sm-6 col-lg-4 h-100">
           <div class="p-3 pb-0 glass-container">
-            <h3>CBPS</h3>
-            <p class="portfolio-item-desc">The Center for Building Performance Standards</p>
+            <h3>CHPS</h3>
+            <p class="portfolio-item-desc">Cape House & Pet Sitters - local house & pet sitting service</p>
             <div class="container">
               <div class="row">
                 <div class="col-auto tag"><p>Wordpress</p></div>
@@ -178,13 +188,15 @@
               </div>
             </div>
             <div class="portfolio-img mt-3">
-              <img src="assets/images/cbps.png" class="img-fluid" />
+              <a href="https://house-sitters.co.za/" target="_blank">
+                <img src="assets/images/housesitters.png" class="img-fluid" />
+              </a>
             </div>
           </div>
         </div>
 
     <!-- Skills Section -->
-    <div class="container text-center pt-7 pb-3">
+    <div class="container text-center pt-7 pb-3" id="skills">
       <h2 class="display-4">Skills</h2>
       <p class="h2-subtext">The tech I know and love</p>
     </div>
@@ -193,79 +205,62 @@
       <div class="row g-2">
         <!-- HTML & CSS -->
         <div class="col-xs-12 col-sm-6 col-lg-4 h-100">
-          <div class="p-3 pb-0 glass-container">
-            <div class=" mb-2">
-              <a href="https://www.example.com">
+          <div class="p-4 d-flex flex-column align-items-center glass-container">
+            <div class="mb-3">
               <img src="assets/images/css-icon.png" class="skill-icon" />
-            </a>
             </div>
             <h3 class="portfolio-item-title">HTML & CSS</h3>
-            <p class="portfolio-item-desc">Award-winning South African contempory artist</p>
           </div>
         </div>
        <!-- Javascript -->
        <div class="col-xs-12 col-sm-6 col-lg-4 h-100">
-        <div class="p-3 pb-0 glass-container">
-          <div class="mb-2">
-            <a href="https://www.example.com">
+        <div class="p-4 d-flex flex-column align-items-center glass-container">
+          <div class="mb-3">
             <img src="assets/images/js-icon.webp" class="skill-icon" />
-          </a>
           </div>
           <h3 class="portfolio-item-title">JavaScript</h3>
-          <p class="portfolio-item-desc">Award-winning South African contempory artist</p>
         </div>
       </div>
       <!-- Boostrap -->
       <div class="col-xs-12 col-sm-6 col-lg-4 h-100">
-        <div class="p-3 pb-0 glass-container">
-          <div class="mb-2">
-            <a href="https://www.example.com">
+        <div class="p-4 d-flex flex-column align-items-center glass-container">
+          <div class="mb-3">
             <img src="assets/images/boostrap-icon.png" class="skill-icon" />
-          </a>
           </div>
           <h3 class="portfolio-item-title">Bootstrap</h3>
-          <p class="portfolio-item-desc">Award-winning South African contempory artist</p>
         </div>
       </div>
       <!-- React -->
       <div class="col-xs-12 col-sm-6 col-lg-4 h-100">
-        <div class="p-3 pb-0 glass-container">
-          <div class="mb-2">
-            <a href="https://www.example.com">
+        <div class="p-4 d-flex flex-column align-items-center glass-container">
+          <div class="mb-3">
             <img src="assets/images/react-icon.png" class="skill-icon" />
-          </a>
           </div>
           <h3 class="portfolio-item-title">React</h3>
-          <p class="portfolio-item-desc">Award-winning South African contempory artist</p>
         </div>
       </div>
       <!-- Python -->
       <div class="col-xs-12 col-sm-6 col-lg-4 h-100">
-        <div class="p-3 pb-0 glass-container">
-          <div class="mb-2">
-            <a href="https://www.example.com">
+        <div class="p-4 d-flex flex-column align-items-center glass-container">
+          <div class="mb-3">
             <img src="assets/images/python-logo.png" class="skill-icon" />
-          </a>
           </div>
           <h3 class="portfolio-item-title">Python</h3>
-          <p class="portfolio-item-desc">Award-winning South African contempory artist</p>
         </div>
       </div>
       <!-- Django -->
       <div class="col-xs-12 col-sm-6 col-lg-4 h-100">
-        <div class="p-3 pb-0 glass-container">
-          <div class="mb-2">
-            <a href="https://www.example.com">
+        <div class="p-4 d-flex flex-column align-items-center glass-container">
+          <div class="mb-3">
             <img src="assets/images/django-icon.png" class="skill-icon" />
-          </a>
           </div>
           <h3 class="portfolio-item-title">Django</h3>
-          <p class="portfolio-item-desc">Award-winning South African contempory artist</p>
+
         </div>
       </div>
 
     <!-- About Section Section -->
-    <div class="container text-center pt-7 pb-3">
+    <div class="container text-center pt-7 pb-3" id="about">
       <h2 class="display-4">About Me</h2>
       <p class="h2-subtext">A little more about myself</p>
     </div>
@@ -273,31 +268,30 @@
     <div class="container">
       <div class="row">
         <div class="column-xs-12 col-lg-6">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper quis lectus nulla at volutpat diam ut venenatis tellus. 
-
-            Morbi tincidunt ornare massa eget. Porttitor lacus luctus accumsan tortor posuere. Ligula ullamcorper malesuada proin libero nunc consequat interdum varius sit. 
-            
-            Venenatis lectus magna fringilla urna porttitor. Amet cursus sit amet dictum sit amet justo. Vel facilisis volutpat est velit.</p>
+          <p>Hello! I'm Josh, a multifaceted developer, designer, and tech enthusiast based in the UK. My journey in the digital realm is driven by a singular passion: leveraging technology to foster business growth.
+            <br><br> With years of experience under my belt, I've had the privilege of partnering with diverse businesses, aiding them in expanding their digital footprint through web design, brand design, digital marketing, and beyond.
+            <br><br>My expertise is as broad as it is deep, spanning across web development technologies like JavaScript, React, and Django, to crafting visually compelling designs with Figma, and orchestrating engaging digital marketing campaigns via platforms like Google Ads. 
+            <br><br>I thrive on the challenge of turning complex problems into elegant solutions, and nothing excites me more than seeing a project come to life and start performing.
+          </p>
         </div>
         <div class="column-xs-12 col-lg-6">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper quis lectus nulla at volutpat diam ut venenatis tellus. 
-
-            Morbi tincidunt ornare massa eget. Porttitor lacus luctus accumsan tortor posuere. Ligula ullamcorper malesuada proin libero nunc consequat interdum varius sit. 
-            
-            Venenatis lectus magna fringilla urna porttitor. Amet cursus sit amet dictum sit amet justo. Vel facilisis volutpat est velit.</p>
+          <p>But my interests aren't confined to the digital screen. The world of technology is vast and ever-evolving, and I consider myself a lifelong learner, always eager to explore new tools, techniques, and trends that can enhance my work and, by extension, the success of the businesses I work with.
+            <br><br>Outside of my professional endeavors, you'll likely find me immersed in the latest tech gadgets, exploring the great outdoors, or engaging with the tech community on the latest trends and innovations.
+            <br><br>I'm on the lookout for new opportunities to collaborate with businesses and individuals who are as passionate about growth and innovation as I am. Whether you're in need of a comprehensive digital strategy, a brand makeover, or a cutting-edge web presence, I'm here to help you achieve your goals and push the boundaries of what's possible.
+            <br><br>Let's connect and create something impactful together.</p>
         </div>
       </div>
     </div>
 
 
      <!-- Contact Section -->
-     <div class="container text-center pt-7 pb-3">
+     <div class="container text-center pt-7 pb-3" id="contact">
       <h2 class="display-4">Get In Touch</h2>
       <p class="h2-subtext">Wanna chat? Just reach out!</p>
     </div>
 
     <div class="container-xxl glass-container p-4 mb-5">
-      <form>
+      <form id="contact-form">
         <div class="mb-3">
           <label for="emailInput" class="form-label">Email address</label>
           <input type="email" class="form-control" id="emailInput">
@@ -318,5 +312,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.9.9/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
